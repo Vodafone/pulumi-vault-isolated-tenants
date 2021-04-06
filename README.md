@@ -6,7 +6,7 @@ This repository contains a Pulumi program that provisions any Vault instances to
 
 Vault Enterprise has a feature called Namespaces. It allows you to create multiple Vault instances on the same server that give you fully separated environments.
 
-We wanted to replicate this behavior with Vault Community edition.
+We wanted to replicate this behavior with Vault Community edition, although we now use this with Vault Enterprise
 
 
 ## Solution
