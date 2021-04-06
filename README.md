@@ -42,6 +42,12 @@ pulumi config set --secret vault:token "$your_vault_token"
 pulumi up
 ```
 
+## Testing
+
+Due to the nature of Pulumi programs we just used `pulumi up` on a nonlive enviroment for veryfing the correctness of the program.
+
+There are currently no dedicated unit tests in this repository.
+
 ## License and Trademarks
 
 git © 2021 Vodafone
