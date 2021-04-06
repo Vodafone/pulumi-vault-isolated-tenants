@@ -1,0 +1,22 @@
+- Name: admin
+  GithubTeamNames:
+    - your-organisation/admin-team
+  PolicyTemplatePath: policies/admin.hcl
+
+- Name: common
+
+- Name: example-tenant-a
+  GithubTeamNames:
+    - your-organisation/tenant-a-team
+  GcpProjects:
+    - example-tenant-a-project
+  ServiceAccounts:
+    - service-account@example-tenant-a-project.iam.gserviceaccount.com
+
+- Name: example-tenant-b
+  GcpProjects:
+    - example-tenant-b-project
+  ServiceAccounts:
+    - service-account@example-tenant-b-project.iam.gserviceaccount.com
+  AppRoles:
+    - example-app-role

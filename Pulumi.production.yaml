@@ -1,0 +1,8 @@
+secretsprovider: gcpkms://projects/your-vault-project...
+encryptedkey: todo
+config:
+  gcp:project: vault-production
+  stack:configPath: config/production
+  vault:address: https://your.vault.url.com/
+  vault:token:
+    secure: todo
